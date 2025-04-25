@@ -1,0 +1,94 @@
+/* style.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Ribeye&family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #7985f4, #a18cd1);
+    padding: 40px;
+    margin: 0;
+    color: #ffffff;
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: "Ribeye", serif;
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px #18006588;
+}
+
+h3 {
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#username {
+    font-weight: bold;
+    color: #ffd369;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 15px;
+    resize: none;
+    background: #ffffffdd;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.2);
+    margin: 15px 0;
+    color: #333;
+}
+
+button {
+    padding: 12px 25px;
+    background-color: #ffd369;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #180065;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+    background-color: #ffbe33;
+    transform: translateY(-2px);
+}
+
+#feed {
+    margin-top: 30px;
+}
+
+.post {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.post:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4);
+}
+
+.username {
+    color: #ffd369;
+    font-weight: bold;
+}
+
+.timestamp {
+    font-size: 0.8em;
+    color: #f0f0f0;
+}
